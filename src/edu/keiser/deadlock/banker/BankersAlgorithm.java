@@ -1,5 +1,5 @@
 
-package Algorithms;
+package edu.keiser.deadlock.banker;
 
 import java.io.File;
 import java.io.FileNotFoundException;
