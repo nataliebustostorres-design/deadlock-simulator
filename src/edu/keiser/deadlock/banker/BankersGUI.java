@@ -1,6 +1,7 @@
 
-package Algorithms;
+package edu.keiser.deadlock.banker;
 import com.formdev.flatlaf.FlatLightLaf;
+
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import javax.swing.border.LineBorder;
