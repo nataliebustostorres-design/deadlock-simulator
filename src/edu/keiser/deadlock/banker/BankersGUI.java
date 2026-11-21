@@ -1,5 +1,15 @@
 
-package Algorithms;
+package edu.keiser.deadlock.banker;
+import com.formdev.flatlaf.FlatLightLaf;
+
+import javax.swing.*;
+import javax.swing.border.EmptyBorder;
+import javax.swing.border.LineBorder;
+import javax.swing.table.DefaultTableModel;
+import java.awt.*;
+import java.io.File;
+import java.io.FileNotFoundException;
+
 import com.formdev.flatlaf.FlatLightLaf;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
@@ -9,7 +19,7 @@ import java.awt.*;
 import java.io.File;
 import java.io.FileNotFoundException;
 
-public class BankersGUI extends JFrame {
+public class BankersGUI extends JPanel {
 
     private final JSpinner processSpinner;
     private final JSpinner resourceSpinner;
@@ -30,12 +40,6 @@ public class BankersGUI extends JFrame {
     private final Color BORDER_COLOR = new Color(220, 225, 230);
 
     public BankersGUI() {
-        setTitle("Banker's Algorithm Simulator");
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(1000, 850);
-        setMinimumSize(new Dimension(800, 650));
-        setLocationRelativeTo(null);
-
         JPanel mainPanel = new JPanel();
         mainPanel.setBackground(PAGE_BACKGROUND);
         mainPanel.setBorder(new EmptyBorder(25, 35, 30, 35));
@@ -49,7 +53,6 @@ public class BankersGUI extends JFrame {
         mainPanel.add(title);
         mainPanel.add(Box.createVerticalStrut(25));
 
-        // Input configuration section
         JPanel configurationPanel = createSection("Input Configuration");
         configurationPanel.setLayout(new BorderLayout(15, 15));
 
@@ -84,7 +87,6 @@ public class BankersGUI extends JFrame {
         mainPanel.add(configurationPanel);
         mainPanel.add(Box.createVerticalStrut(18));
 
-        // Dynamic tables section
         tablesPanel = new JPanel();
         tablesPanel.setOpaque(false);
         tablesPanel.setLayout(new BoxLayout(tablesPanel, BoxLayout.Y_AXIS));
@@ -119,7 +121,8 @@ public class BankersGUI extends JFrame {
         scrollPane.getVerticalScrollBar().setUnitIncrement(16);
         scrollPane.getViewport().setBackground(PAGE_BACKGROUND);
 
-        setContentPane(scrollPane);
+        setLayout(new BorderLayout());
+        add(scrollPane, BorderLayout.CENTER);
 
         // Button actions
         generateButton.addActionListener(e -> generateTables());
@@ -320,7 +323,7 @@ public class BankersGUI extends JFrame {
 
         generateTables();
 
-        File demoFile = new File("src/Algorithms/banker-test.txt");
+        File demoFile = new File("src/edu/keiser/deadlock/banker/banker-test.txt");
 
         if (!demoFile.exists()) {
             JFileChooser chooser = new JFileChooser();
@@ -616,8 +619,13 @@ public class BankersGUI extends JFrame {
         }
 
         SwingUtilities.invokeLater(() -> {
-            BankersGUI gui = new BankersGUI();
-            gui.setVisible(true);
+            JFrame frame = new JFrame("Banker's Algorithm Simulator");
+            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            frame.setContentPane(new BankersGUI());
+            frame.setSize(1000, 850);
+            frame.setMinimumSize(new Dimension(800, 650));
+            frame.setLocationRelativeTo(null);
+            frame.setVisible(true);
         });
     }
 }
