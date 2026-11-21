@@ -8,6 +8,7 @@ import java.util.Scanner;
 
 public class BankersAlgorithm {
 
+
     private int[][] maxMatrix;
     private int[][] allocationMatrix;
     private int[] availableResources;

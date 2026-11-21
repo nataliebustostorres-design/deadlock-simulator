@@ -1,60 +1,9 @@
 <component name="libraryTable">
-  <library name="FlatLaf-3.8" type="javaScript">
-    <properties>
-      <sourceFilesUrls>
-        <item url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8" />
-      </sourceFilesUrls>
-    </properties>
-    <CLASSES />
+  <library name="FlatLaf-3.8">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/flatlaf-3.8.jar!/" />
+    </CLASSES>
     <JAVADOC />
-    <SOURCES>
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-demo/src/main/resources/com/formdev/flatlaf/demo/intellijthemes/themes.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/Carbon.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/Cobalt_2.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/Cyan.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/DarkFlatTheme.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/DarkPurple.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/Dracula.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/Gradianto_Nature_Green.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/Gradianto_dark_fuchsia.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/Gradianto_deep_ocean.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/Gradianto_midnight_blue.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/Gray.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/HiberbeeDark.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/HighContrast.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/LightFlatTheme.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/MaterialTheme.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/Monocai.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/Monokai_Pro.default.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/SolarizedDark.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/SolarizedLight.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/Spacegray.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/Xcode-Dark.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/arc-theme-orange.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/arc-theme.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/arc_theme_dark.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/arc_theme_dark_orange.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/gruvbox_dark_hard.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/material-theme-ui-lite/Arc Dark.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/material-theme-ui-lite/Atom One Dark.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/material-theme-ui-lite/Atom One Light.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/material-theme-ui-lite/Dracula.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/material-theme-ui-lite/GitHub Dark.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/material-theme-ui-lite/GitHub.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/material-theme-ui-lite/Light Owl.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/material-theme-ui-lite/Material Darker.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/material-theme-ui-lite/Material Deep Ocean.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/material-theme-ui-lite/Material Lighter.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/material-theme-ui-lite/Material Oceanic.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/material-theme-ui-lite/Material Palenight.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/material-theme-ui-lite/Monokai Pro.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/material-theme-ui-lite/Moonlight.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/material-theme-ui-lite/Night Owl.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/material-theme-ui-lite/Solarized Dark.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/material-theme-ui-lite/Solarized Light.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/nord.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/one_dark.theme.json" />
-      <root url="file://$USER_HOME$/Downloads/FlatLaf-3.8/FlatLaf-3.8/flatlaf-intellij-themes/src/main/resources/com/formdev/flatlaf/intellijthemes/themes/vuesion_theme.theme.json" />
-    </SOURCES>
+    <SOURCES />
   </library>
 </component>

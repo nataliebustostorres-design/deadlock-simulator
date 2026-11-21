@@ -8,14 +8,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/flatlaf-3.8.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" exported="" name="FlatLaf-3.8" level="project" />
+    <orderEntry type="library" exported="" name="gs-core-2.0" level="project" />
+    <orderEntry type="library" exported="" name="gs-ui-swing-2.0" level="project" />
+    <orderEntry type="library" exported="" name="mbox2-1.0" level="project" />
+    <orderEntry type="library" exported="" name="pherd-1.0" level="project" />
   </component>
 </module>

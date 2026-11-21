@@ -40,6 +40,7 @@ public class Main {
             @Override
             public void windowClosing(WindowEvent e) {
                 philosophers.shutDown();
+                banker.shutDown();
             }
         });
         frame.setVisible(true);
